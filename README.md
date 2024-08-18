@@ -1,4 +1,8 @@
 # Modular 8-bit Computer
+This is the repository for an 8-bit computer system that is built using cards with a standardized interface. 
+
+Here's an example of a card:
+![](hero.png)
 ## Current Bus Specification
 ```verilog
 // The main bus wires (32+8=40 wires total)
