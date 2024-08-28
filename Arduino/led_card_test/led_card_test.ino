@@ -6,6 +6,7 @@ int we_pin = 10;
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
+  digitalWrite(LED_BUILTIN, HIGH);
 
   for (int i = 0; i < 8; i++) pinMode(data_pins[i], OUTPUT);
   for (int i = 0; i < 4; i++) pinMode(addr_pins[i], OUTPUT);
@@ -25,10 +26,6 @@ void do_write(uint8_t data, uint8_t addr) {
 
 // the loop function runs over and over again forever
 void loop() {
-  // digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  // delay(1000);                      // wait for a second
-  // digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
-  // delay(1000);                      // wait for a second
   for (int i = 0; i < 16; i++) {
     uint8_t dat = 0b10101010;
     if (i % 2 == 1) dat ^= 0xff;
