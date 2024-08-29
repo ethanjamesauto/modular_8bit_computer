@@ -98,8 +98,9 @@ for instruction in program:
 ROM_SIZE = ((2**15)-2)
 NO_OP_INSTRUCTON = "FF"
 
-with open("rom.txt","w",encoding="utf-8") as fp:
+with open("rom.txt","wb") as fp:
     #fp.write(ROM_HEADER)
+    arr = []
     for i in range(ROM_SIZE):
         if i in rom:
 
@@ -108,11 +109,13 @@ with open("rom.txt","w",encoding="utf-8") as fp:
             #formatted_byte = ""
             #for character in rom[i]:
                 #formatted_byte = formatted_byte+str(int(character,16))
-
+            arr.append(int(rom[i],16))
             print(rom[i])
-            fp.write(chr(int(rom[i],16)))
+            #fp.write(chr(int(rom[i],16)))
         #else:
             #fp.write(NO_OP_INSTRUCTON+"\n")
+    thing = bytes(bytearray(arr))
+    fp.write(thing)
 
 
 
