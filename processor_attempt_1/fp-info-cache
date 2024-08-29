@@ -1,4 +1,4 @@
-22069646639619607
+22078267352655209
 AudioJacks
 Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal
 3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)
@@ -1428,7 +1428,42 @@ buny_BOLT
 0
 0
 AudioJacks
+cat_footprint
+
+
+0
+0
+0
+AudioJacks
+creenis
+
+
+0
+0
+0
+AudioJacks
 isabelgraphic
+
+
+0
+0
+0
+AudioJacks
+piss_quiet
+
+
+0
+0
+0
+AudioJacks
+plant
+
+
+0
+0
+0
+AudioJacks
+star_footprint
 
 
 0
