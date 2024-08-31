@@ -84,7 +84,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>we_n</string>
+          <string>~we</string>
         </entry>
         <entry>
           <string>InDefault</string>
@@ -98,7 +98,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>oe_n</string>
+          <string>~oe</string>
         </entry>
         <entry>
           <string>InDefault</string>
