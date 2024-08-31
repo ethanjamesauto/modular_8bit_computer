@@ -84,7 +84,11 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>we</string>
+          <string>we_n</string>
+        </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="1" z="false"/>
         </entry>
       </elementAttributes>
       <pos x="520" y="300"/>
@@ -94,7 +98,11 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>oe</string>
+          <string>oe_n</string>
+        </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="1" z="false"/>
         </entry>
       </elementAttributes>
       <pos x="520" y="340"/>
