@@ -1,5 +1,5 @@
 # Student Names 
-Henry Edward "Eddie" Pritchard, Ethan James
+Eddie Pritchard, Ethan James, Youssef Chebil
 
 # Summary
 A modular 8-bit computer built with cards that use a standardized interface
