@@ -8,12 +8,27 @@
 
 
 #"opcode" "abbrev"    "argument"      "description"
-#$  0      lcon        dest, constant  dest <- constant
+#$  E      lcon        dest, constant  dest <- constant
+#$  F      move        dest, source
+#$  D      publish     0, 0            offcard <- output data latch
 
 
 #"destination" "abbrev" 
-#$  0           ra
+#$  F           carddata
+#$  E           rd
+#$  D           rc
+#$  7           ra
+#$  6           rb
+#$  5           buls
+#$  4           bums
+#$  3           jump
+#$  2           mals
+#$  1           ram
+#$  0           noop
 
+#"source"    "abbrev"
+#$  7           apb
+#$  6           data
 
 lut = {}
 with open("assembler.py","r") as myself:
@@ -84,9 +99,11 @@ for instruction in program:
         while instruction_pointer in rom:
             instruction_pointer = instruction_pointer + 1
 
-        
-        rom[instruction_pointer] = to_write_msb
-        rom[instruction_pointer+1] = to_write_lsb
+        if len(to_write_msb) > 0:
+            rom[instruction_pointer] = to_write_msb
+        if len(to_write_lsb) > 0:
+
+            rom[instruction_pointer+1] = to_write_lsb
         instruction_pointer = instruction_pointer + 2
 
 
