@@ -10,6 +10,39 @@ module cpu_card(
 	output wire int_n			// pulled up by motherboard; driven down by any peripheral (could be used for interrupts)
 );
 
+// details about shift card:
+/*
+always @(*) begin
+    case (addr[10:8])
+        // swap upper and lower of a
+        3'b000: TO_BUFFER_DATA = {a[3:0], a[7:4]};
+
+        // left logical shift a by 1
+        3'b001: TO_BUFFER_DATA = a >> 1;
+
+        // left circular shift a by 1
+        3'b010: TO_BUFFER_DATA = {a[6:0], a[7]};
+
+        // left arithmetic shift a by 1
+        3'b011: TO_BUFFER_DATA = a >>> 1;
+
+        // right logical shift a by 1
+        3'b100: TO_BUFFER_DATA = a << 1;
+
+        // right circular shift a by 1
+        3'b101: TO_BUFFER_DATA = {a[0], a[7:1]};
+
+        3'b110: TO_BUFFER_DATA = 8'bx;
+        3'b111: TO_BUFFER_DATA = 8'bx;
+        default: TO_BUFFER_DATA = 8'bx;
+    endcase
+end
+*/
+
+
+parameter alu_a = 8'b1111_1111;
+parameter alu_b = 8'b0101;
+
 reg [7:0] dat_o;
 
 reg [7:0] dat;
@@ -31,6 +64,30 @@ initial begin
 	write(8'd50, 16'h5001);
 	read(dat_o, 16'h5001);
 	$display("Read: %h", dat_o);
+
+	delay(5);
+
+	// write/read to shift card
+	write(alu_a, 16'b1000_1_0_00_0000_0000);
+	write(alu_b, 16'b1000_1_1_00_0000_0000);
+
+	read(dat_o, 16'b1000_1_000_0000_0000);
+	$display("Read: %h, expecting %h (swap upper and lower)", dat_o, {alu_a[3:0], alu_a[7:4]});
+
+	read(dat_o, 16'b1000_1_001_0000_0000);
+	$display("Read: %h, expecting %h (left logical shift)", dat_o, alu_a >> 1);
+
+	read(dat_o, 16'b1000_1_010_0000_0000);
+	$display("Read: %h, expecting %h (left circular shift)", dat_o, {alu_a[6:0], alu_a[7]});
+
+	read(dat_o, 16'b1000_1_011_0000_0000);
+	$display("Read: %h, expecting %h (left arithmetic shift)", dat_o, $signed(alu_a) >>> 1);
+
+	read(dat_o, 16'b1000_1_100_0000_0000);
+	$display("Read: %h, expecting %h (right logical shift)", dat_o, alu_a << 1);
+
+	read(dat_o, 16'b1000_1_101_0000_0000);
+	$display("Read: %h, expecting %h (right circular shift)", dat_o, {alu_a[0], alu_a[7:1]});
 
 	addr = 16'h0;
 	$finish;
