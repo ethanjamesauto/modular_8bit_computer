@@ -1,0 +1,11 @@
+load 0 0
+move ra constant
+load 0 0
+move bums constant
+load 0 6
+move buls constant
+load 0 1
+move rb constant
+move ra apb
+load 0 0
+jump uncond noflag #jump to instruction 3

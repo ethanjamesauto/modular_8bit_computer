@@ -1,0 +1,16 @@
+byte a = 0000_0001
+byte b = 0000_0001
+addr alu_reg_a = 1000_1000_0000_0000
+addr alu_reg_b = 1000_1100_0000_0000
+if a == b:
+    byte temp = 1010_1010
+    write alu_reg_a temp
+    if alu_reg_a == alu_reg_b:
+        write alu_reg_a temp
+    else:
+        write alu_reg_b temp
+    destroy temp
+else:
+    byte temp = 0101_0101
+    write alu_reg_b temp
+    destroy temp

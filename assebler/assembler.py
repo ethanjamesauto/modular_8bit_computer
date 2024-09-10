@@ -55,8 +55,6 @@ with open(to_compile+".txt","r") as fp:
         line = line.split(" ")
         #add buffer when instruction too short. TODO refine this for 2 byte instruction
         if len(line[0]) != 0:
-            if len(line)==1:
-                line.append("0")
             program[line_counter] = line
         line_counter = line_counter + 1
 
@@ -64,6 +62,7 @@ with open(to_compile+".txt","r") as fp:
         
 #this will overwrite program rom with rom jump utility function
 rom = {}
+print(program)
 
 #rom_util_counter = 0
 #occupied_instructions = 0
@@ -80,31 +79,37 @@ rom = {}
 
 instruction_pointer = 0
 for instruction in program:
-    if program[instruction][0] in lut:  #valid instruction
+    print(program[instruction],instruction)
+    if program[instruction][0] == "load":
+        rom[instruction_pointer] = lut[program[instruction][1]]+lut[program[instruction][2]]
+    elif program[instruction][0] == "move":
+        rom[instruction_pointer] = lut[program[instruction][1]]
+    
+    # if program[instruction][0] in lut:  #valid instruction
         
-        to_write_lsb,to_write_msb = "",""
-        print(program[instruction])
+    #     to_write_lsb,to_write_msb = "",""
+    #     print(program[instruction])
 
         
 
-        for token in program[instruction]:
-            if len(to_write_msb) > 1:
-                to_write_lsb = to_write_lsb + lut[token]# + ("\n" if len(to_write) == 1 else "")
-            else:
-                to_write_msb = to_write_msb + lut[token]
-        #print("trying to write "+to_write)
+    #     for token in program[instruction]:
+    #         if len(to_write_msb) > 1:
+    #             to_write_lsb = to_write_lsb + lut[token]# + ("\n" if len(to_write) == 1 else "")
+    #         else:
+    #             to_write_msb = to_write_msb + lut[token]
+    #     #print("trying to write "+to_write)
 
 
-        #Offset instruction write until free spot:
-        while instruction_pointer in rom:
-            instruction_pointer = instruction_pointer + 1
+    #     #Offset instruction write until free spot:
+    #     while instruction_pointer in rom:
+    #         instruction_pointer = instruction_pointer + 1
 
-        if len(to_write_msb) > 0:
-            rom[instruction_pointer] = to_write_msb
-        if len(to_write_lsb) > 0:
+    #     if len(to_write_msb) > 0:
+    #         rom[instruction_pointer] = to_write_msb
+    #     if len(to_write_lsb) > 0:
 
-            rom[instruction_pointer+1] = to_write_lsb
-        instruction_pointer = instruction_pointer + 2
+    #         rom[instruction_pointer+1] = to_write_lsb
+    #     instruction_pointer = instruction_pointer + 2
 
 
 #print("Successfully written instruction count: "+str(len(rom)-occupied_instructions))
