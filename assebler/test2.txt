@@ -1,0 +1,14 @@
+line_1,instr_0,f0,f0                    | load 0 0
+line_2,instr_2,97                       | move bums constant
+line_3,instr_3,87                       | move buls constant
+line_4,instr_4,47                       | jump addr noflag
+line_5,instr_5,f0,f1                    | load 0 1
+line_6,instr_7,97                       | move bums constant
+line_7,instr_8,f0,f0                    | load 0 0
+line_8,instr_10,87                      | move buls constant
+line_9,instr_11,fa,fa                   | load a a
+line_10,instr_13,b7                     | move ra constant
+line_11,instr_14,c6                     | move rb card
+line_12,instr_15,07                     | jump a=b noflag
+line_13,instr_16,c6                     | move rb card
+move ra ram

@@ -1,32 +1,12 @@
-lcon ra 10 10
-move noop 0 0
-lcon ra 10 10
-move noop 0 0
-lcon ra 10 10
-move noop 0 0
-lcon ra 10 10
-
-
-
-
-
-#lcon bums 0 0
-#lcon buls 0 2
-#move carddata 0 0
-#move rb data 0
-#lcon mals 0 0
-#move ra apb 0
-#lcon rc 0 0
-#lcon rd 0 0
-#lcon jump 0 0
-
-#lcon ra 0 1
-#lcon rb 0 1
-#move ra apb 0
-
-
-#move ram ra 0
-#lcon ra 0 0
-#move ra ram 0
-#move ram apb 0
-#move ra ram 0
+load 0 0
+move bums constant
+move buls constant
+jump addr noflag    #move 16b builder into addr
+load 0 1
+move bums constant
+load 0 0
+move buls constant
+load a a
+move ra constant
+move rb card
+jump a=b noflag
