@@ -157,8 +157,25 @@ for instruction in program:
             program[line_number].append("line_"+str(line_number)+",instr_"+str(instruction_pointer)+","+rom[instruction_pointer][0])
         line_number = line_number + 1
     elif program[instruction][0] == "load":
-        rom[instruction_pointer] = [lut["dest_constant"]+lut["load_"+program[instruction][1]],note]
-        rom[instruction_pointer+1] = [lut["dest_constant"]+lut["load_"+program[instruction][2]],note]
+        #
+        rtl_defined_constant_eight_bits = lut["load_"+program[instruction][1]]+lut["load_"+program[instruction][2]]
+        map_byte = [1, 2, 5, 6, 0, 3, 4, 7]
+        #map_byte = [0, 1, 2, 3, 4, 5, 6, 7]
+        #convert byte to a number
+        b = int(rtl_defined_constant_eight_bits, 16)
+        print(b)
+        out = 0
+        for i in range(8):
+            bit = (b >> i) & 1
+            out |= bit << map_byte[i]
+        print(len(hex(out)[2:]))
+        constant_after_look_up = hex(out)[2:] if len(hex(out)[2:]) == 2 else "0"+hex(out)[2:]
+        #if len(constant_after_look_up) == 1:
+            #constant_after_look_up = '0' + constant_after_look_up
+        print(constant_after_look_up)
+
+        rom[instruction_pointer] = [lut["dest_constant"]+constant_after_look_up[0],note]
+        rom[instruction_pointer+1] = [lut["dest_constant"]+constant_after_look_up[1],note]
         if rom[instruction_pointer][1] == "NO_NOTE":
             program[line_number].append("line_"+str(line_number)+",instr_"+str(instruction_pointer)+","+rom[instruction_pointer][0]+","+rom[instruction_pointer+1][0])
         instruction_pointer = instruction_pointer + 2
