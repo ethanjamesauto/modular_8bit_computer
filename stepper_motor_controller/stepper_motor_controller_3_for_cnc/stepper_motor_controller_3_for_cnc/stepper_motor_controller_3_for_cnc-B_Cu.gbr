@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.5*%
-%TF.CreationDate,2024-09-25T18:42:41-04:00*%
+%TF.CreationDate,2024-09-25T18:44:14-04:00*%
 %TF.ProjectId,stepper_motor_controller_3_for_cnc,73746570-7065-4725-9f6d-6f746f725f63,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.5) date 2024-09-25 18:42:41*
+G04 Created by KiCad (PCBNEW 7.0.5) date 2024-09-25 18:44:14*
 %MOMM*%
 %LPD*%
 G01*
