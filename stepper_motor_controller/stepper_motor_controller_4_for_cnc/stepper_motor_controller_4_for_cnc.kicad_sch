@@ -1193,26 +1193,14 @@
   (junction (at 299.72 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 69743895-6e97-4363-b747-f923bcbb90a4)
   )
-  (junction (at 374.65 78.74) (diameter 0) (color 0 0 0 0)
-    (uuid 6a14b9c3-1502-4c08-bced-45a9434f7727)
-  )
   (junction (at 180.34 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 6e210d3e-d7f8-4ea3-81fc-22a6f865863c)
   )
   (junction (at 299.72 38.1) (diameter 0) (color 0 0 0 0)
     (uuid 78217e26-6285-434f-af32-e9b0a23920a4)
   )
-  (junction (at 374.65 53.34) (diameter 0) (color 0 0 0 0)
-    (uuid 87e00470-297a-4c6e-8228-84e5b7d2d1e2)
-  )
-  (junction (at 334.01 39.37) (diameter 0) (color 0 0 0 0)
-    (uuid 88804006-e3b6-40cb-819a-75d29a0a8f5f)
-  )
   (junction (at 220.98 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 8d856b4f-27af-4f12-b524-b44bb5eeb385)
-  )
-  (junction (at 374.65 39.37) (diameter 0) (color 0 0 0 0)
-    (uuid 93c8b289-a16b-46eb-85e4-87331557efd8)
   )
   (junction (at 220.98 38.1) (diameter 0) (color 0 0 0 0)
     (uuid a2c01763-6a89-4715-8203-ca25666223d5)
@@ -1220,20 +1208,8 @@
   (junction (at 299.72 77.47) (diameter 0) (color 0 0 0 0)
     (uuid b6774ddc-c411-49d5-8870-45dbf0122b0e)
   )
-  (junction (at 374.65 64.77) (diameter 0) (color 0 0 0 0)
-    (uuid ba8e5371-6fa9-4a9b-ba99-480b10063148)
-  )
   (junction (at 180.34 38.1) (diameter 0) (color 0 0 0 0)
     (uuid be3baecc-8eec-41bf-ad03-be6c40340fac)
-  )
-  (junction (at 334.01 78.74) (diameter 0) (color 0 0 0 0)
-    (uuid c439011e-e0d7-4816-83e9-b9aa2e593553)
-  )
-  (junction (at 334.01 53.34) (diameter 0) (color 0 0 0 0)
-    (uuid d2bf7b24-cc9c-4dd8-91fd-8200f491d831)
-  )
-  (junction (at 334.01 64.77) (diameter 0) (color 0 0 0 0)
-    (uuid d3b852fb-793a-4a9e-97c4-cec96108e9d0)
   )
   (junction (at 97.79 44.45) (diameter 0) (color 0 0 0 0)
     (uuid d472d481-92e0-452b-80a9-6c59c28d123c)
@@ -1262,10 +1238,6 @@
     (stroke (width 0) (type default))
     (uuid 0eeab661-434c-4328-af31-105a43912a4a)
   )
-  (wire (pts (xy 374.65 39.37) (xy 377.19 39.37))
-    (stroke (width 0) (type default))
-    (uuid 10910557-75a1-4851-9a9d-cb755433cd63)
-  )
   (wire (pts (xy 220.98 63.5) (xy 223.52 63.5))
     (stroke (width 0) (type default))
     (uuid 1a2d9a2d-3ce0-47d8-93ac-f299ce825686)
@@ -1277,14 +1249,6 @@
   (wire (pts (xy 220.98 77.47) (xy 223.52 77.47))
     (stroke (width 0) (type default))
     (uuid 3aed3fe1-2094-4dc9-9f3f-0afd6c4fecde)
-  )
-  (wire (pts (xy 334.01 78.74) (xy 336.55 78.74))
-    (stroke (width 0) (type default))
-    (uuid 4cd35714-7866-4d28-90d0-f31301d36d1f)
-  )
-  (wire (pts (xy 334.01 64.77) (xy 336.55 64.77))
-    (stroke (width 0) (type default))
-    (uuid 5dce3c51-6fd6-4a7d-ad74-aa019ead953f)
   )
   (wire (pts (xy 299.72 52.07) (xy 302.26 52.07))
     (stroke (width 0) (type default))
@@ -1306,17 +1270,9 @@
     (stroke (width 0) (type default))
     (uuid 72c668a3-3472-4baa-a636-2bd8027c7266)
   )
-  (wire (pts (xy 374.65 78.74) (xy 377.19 78.74))
-    (stroke (width 0) (type default))
-    (uuid 77a40901-e5fa-440b-a89e-afa855ef2c16)
-  )
   (wire (pts (xy 265.43 198.12) (xy 279.4 198.12))
     (stroke (width 0) (type default))
     (uuid 80478ad6-e128-4d05-b009-bc0b78f141b6)
-  )
-  (wire (pts (xy 334.01 39.37) (xy 336.55 39.37))
-    (stroke (width 0) (type default))
-    (uuid 87806961-557d-4910-a3ab-5da506dce7e4)
   )
   (wire (pts (xy 299.72 77.47) (xy 302.26 77.47))
     (stroke (width 0) (type default))
@@ -1330,10 +1286,6 @@
     (stroke (width 0) (type default))
     (uuid 933c4a99-3a8a-4af2-b39a-be7558733402)
   )
-  (wire (pts (xy 374.65 64.77) (xy 377.19 64.77))
-    (stroke (width 0) (type default))
-    (uuid a1e20e86-ba23-4431-aa2e-a840612d5a69)
-  )
   (wire (pts (xy 180.34 52.07) (xy 182.88 52.07))
     (stroke (width 0) (type default))
     (uuid a54ce4ec-3428-457f-bf26-11e882aa84df)
@@ -1346,10 +1298,6 @@
     (stroke (width 0) (type default))
     (uuid acf98b7d-0ddb-4b17-96a9-2f44a280b374)
   )
-  (wire (pts (xy 374.65 53.34) (xy 377.19 53.34))
-    (stroke (width 0) (type default))
-    (uuid af788acc-013b-4e59-b7d9-17be2bbe12e3)
-  )
   (wire (pts (xy 259.08 52.07) (xy 261.62 52.07))
     (stroke (width 0) (type default))
     (uuid b4532108-6b92-4f0a-b9bc-32f8eaa3c782)
@@ -1357,10 +1305,6 @@
   (wire (pts (xy 299.72 63.5) (xy 302.26 63.5))
     (stroke (width 0) (type default))
     (uuid d4299481-e217-4e1b-b40b-c3d4d8836a84)
-  )
-  (wire (pts (xy 334.01 53.34) (xy 336.55 53.34))
-    (stroke (width 0) (type default))
-    (uuid e3904fa9-ec3e-45f6-bf89-87b4a6e47ccf)
   )
   (wire (pts (xy 259.08 38.1) (xy 261.62 38.1))
     (stroke (width 0) (type default))
@@ -1422,10 +1366,6 @@
     (uuid fdda27d8-d724-4c60-8053-5745f47f8617)
   )
 
-  (label "B_n_logic" (at 326.39 73.66 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 03af5011-b30c-478a-8c4d-76eaebc6d072)
-  )
   (label "B_n_logic" (at 121.92 78.74 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 092bd7e9-0f3d-4199-8a81-7057d360ad04)
@@ -1449,10 +1389,6 @@
   (label "B_n_logic" (at 82.55 41.91 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1291f6e1-0c4c-40fd-9317-7d8d1f98cd3e)
-  )
-  (label "B_logic" (at 326.39 69.85 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 1fbfa4d6-00a1-4c0f-8dc3-526600518edd)
   )
   (label "B_n_logic" (at 251.46 72.39 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1482,10 +1418,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 31e970cb-8e97-4be5-8a7e-fd7d01c5f691)
   )
-  (label "B" (at 392.43 48.26 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 33e47add-0a40-4af9-b3ea-eca2530965f4)
-  )
   (label "CLOCK_upper" (at 106.68 76.2 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 34ec3f3a-5140-4849-8613-1cab6115d355)
@@ -1494,17 +1426,9 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 44d8d6f0-082c-4b58-80f5-568b10a036a3)
   )
-  (label "B" (at 351.79 48.26 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4880dc1f-af11-48ee-9d19-2ffbc6ed8d18)
-  )
   (label "B" (at 238.76 46.99 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 51d05b84-f5a7-4de5-bd94-dfc7a0a53d32)
-  )
-  (label "A_logic" (at 367.03 44.45 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 531b080b-6929-4414-b9df-c705bd5a79c1)
   )
   (label "A_n_logic" (at 251.46 46.99 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1529,10 +1453,6 @@
   (label "A_logic" (at 121.92 44.45 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 68ebbeaa-f74f-42cb-925e-9a28bc5a2116)
-  )
-  (label "C" (at 351.79 69.85 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6d358a01-3fcf-4121-a31e-e27a8e3151d9)
   )
   (label "A_n_logic" (at 292.1 46.99 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1562,41 +1482,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 914f224e-fde4-4a43-a6e9-cdec275ef45f)
   )
-  (label "A" (at 392.43 44.45 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9823b418-ed93-4d75-872e-b0b9386e8afc)
-  )
   (label "A" (at 198.12 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9ec381e9-a9cf-4f79-815b-b35d441fcda9)
-  )
-  (label "A" (at 351.79 44.45 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9ec55598-e07e-4689-9b94-c7cfc14e3af0)
   )
   (label "B_logic" (at 121.92 73.66 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9ee537df-c35b-4405-ab46-e95a470083f2)
   )
-  (label "A_n_logic" (at 367.03 48.26 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid ac5083b7-c4b4-4b06-8a32-c70963ee8410)
-  )
-  (label "A_logic" (at 326.39 44.45 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid ad8f1fef-18b8-4fc8-8235-ae3156a528dd)
-  )
   (label "A" (at 238.76 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b0deae65-4dc0-4978-8257-b3e18b7f4b41)
-  )
-  (label "A_n_logic" (at 326.39 48.26 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid b0e34cbb-812f-4602-8f84-26716bcfed4f)
-  )
-  (label "D" (at 392.43 73.66 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b2dca712-6014-4266-9f2b-252c6558222e)
   )
   (label "A_logic" (at 172.72 43.18 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1618,10 +1514,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d2ee4fd6-eb60-4575-80e2-d99108f7e0e5)
   )
-  (label "B_n_logic" (at 367.03 73.66 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid d7a5d008-593a-4c0a-9853-49a80644a7ee)
-  )
   (label "B_logic" (at 251.46 68.58 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d80460a9-ab68-4af9-98e5-f7a9ace8f003)
@@ -1642,21 +1534,9 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e849f1b9-330b-4c2f-ad60-0fd3bc96a27f)
   )
-  (label "D" (at 351.79 73.66 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ea9bea4f-58a1-4798-b42f-b7f58ce3892b)
-  )
-  (label "C" (at 392.43 69.85 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid edcf8c0b-f46c-4880-a696-3021c399ef7d)
-  )
   (label "B_n_logic" (at 292.1 72.39 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f223cd67-3c56-4d2e-b157-d7139db01119)
-  )
-  (label "B_logic" (at 367.03 69.85 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid f4747098-b9e2-4292-a29a-11546c8c0b79)
   )
   (label "B_logic" (at 292.1 68.58 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1689,7 +1569,7 @@
     (pin "1" (uuid a7524133-8eb3-4ded-b566-83e5f7b7d0b7))
     (pin "2" (uuid 1aeb4c17-007c-48b1-adb0-8ef2527ddef8))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R54") (unit 1)
         )
@@ -1721,35 +1601,9 @@
     (pin "7" (uuid 2ba54110-a479-4983-bcb9-884d28f4cb4a))
     (pin "8" (uuid 007798c3-653b-497a-a0cc-cd25045e77cd))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 347.98 73.66 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 05fb9609-dfd3-492e-ab1f-87f8a8dbe277)
-    (property "Reference" "R46" (at 347.98 67.31 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1" (at 347.98 69.85 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 347.98 75.438 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 347.98 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f6372716-f818-400a-b911-fb1ba7e5b05a))
-    (pin "2" (uuid e871e0d6-66b3-4862-8b3a-b8be3e8c5ac6))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "R46") (unit 1)
         )
       )
     )
@@ -1772,59 +1626,9 @@
     )
     (pin "1" (uuid 1209a765-c5bc-4e74-bef3-541f7d1a8b85))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR018") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 334.01 39.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 10ab4e4a-96f2-4eb5-9ef9-d806c97d7a04)
-    (property "Reference" "#PWR053" (at 334.01 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 334.01 34.29 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 334.01 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 334.01 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 90f97bee-4751-4be1-954e-f0520f5061c5))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "#PWR053") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 374.65 64.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 145b9ede-6b56-451a-87da-e20a943f8777)
-    (property "Reference" "#PWR059" (at 374.65 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 374.65 59.69 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 374.65 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 374.65 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 18f9948c-65a9-493e-a698-45839347e1ba))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -1860,7 +1664,7 @@
     (pin "14" (uuid c3443bbb-048b-4e6d-a1de-e75a60d11791))
     (pin "7" (uuid fa72b9b7-6f7c-4389-b5b9-7e9a4bc094d3))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U3") (unit 5)
         )
@@ -1892,7 +1696,7 @@
     (pin "7" (uuid c2e0350f-6b63-42d6-b5f5-fb65ff799b0c))
     (pin "8" (uuid 16e2e4f8-2084-47b5-abf0-fbb23481050d))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U7") (unit 1)
         )
@@ -1918,7 +1722,7 @@
     (pin "1" (uuid 653b0302-51e0-4fd3-8e0a-de03a781896c))
     (pin "2" (uuid 252ce516-67b1-4e2e-b11f-c3c0c2d17cc5))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R72") (unit 1)
         )
@@ -1943,7 +1747,7 @@
     )
     (pin "1" (uuid dc371df2-76ca-4305-861b-bf1525e1050b))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR02") (unit 1)
         )
@@ -1969,7 +1773,7 @@
     (pin "1" (uuid c7cdc4b7-70b4-4f89-b0de-c5de11e1d57b))
     (pin "2" (uuid aae95d8e-453c-464f-b869-64f7ad7eb117))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R12") (unit 1)
         )
@@ -1994,7 +1798,7 @@
     )
     (pin "1" (uuid 6582564b-7e19-4755-9633-07d797f02a3e))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR03") (unit 1)
         )
@@ -2020,7 +1824,7 @@
     (pin "1" (uuid e6a62c36-f1ea-46a2-8cef-79a192721b3c))
     (pin "2" (uuid d8fd2db9-5280-493d-85db-d61f9254a38e))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R69") (unit 1)
         )
@@ -2045,41 +1849,9 @@
     )
     (pin "1" (uuid 18aa077a-f6bd-495f-a8fb-c8e27f68114c))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR033") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "my parts:L9110h") (at 373.38 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 299b2e67-abab-466a-b8e1-46813022eacd)
-    (property "Reference" "U27" (at 384.81 65.9383 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 373.38 67.31 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (at 373.38 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 373.38 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 16f5f387-d828-40fe-95ab-82a3888fdb0a))
-    (pin "2" (uuid 098539a2-655d-4d1d-abe9-831efd71a917))
-    (pin "3" (uuid d379f75d-4ac7-4f0f-a04a-ac051e37dcbf))
-    (pin "4" (uuid 75241055-5514-444a-bf35-b6ebd96f6dbb))
-    (pin "5" (uuid 8ce4c09b-1b38-4647-8e92-2a41630d0328))
-    (pin "6" (uuid 4fec8559-15b6-4765-9e36-0281e13168ab))
-    (pin "7" (uuid 779e5d74-7514-43bc-b718-6273aac2635f))
-    (pin "8" (uuid 4720e4da-7519-4cc5-8031-550abf9220bc))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "U27") (unit 1)
         )
       )
     )
@@ -2102,7 +1874,7 @@
     )
     (pin "1" (uuid 67934acf-03d4-4930-ba3c-2a3d43c3a3b6))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR048") (unit 1)
         )
@@ -2140,60 +1912,9 @@
     (pin "14" (uuid f9682901-7838-47d2-9cad-30c02b69883b))
     (pin "7" (uuid b782d80c-c17f-40f7-8116-a645a1c2dd8c))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U3") (unit 2)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 347.98 69.85 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 31a7f789-38d6-4d12-81c5-4cc7b48f4203)
-    (property "Reference" "R63" (at 347.98 63.5 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1" (at 347.98 66.04 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 347.98 71.628 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 347.98 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e1d734c8-3f52-438e-ab87-31e22eb79a97))
-    (pin "2" (uuid 669cff60-88f6-4004-81fa-fc8aeda6b3ba))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "R63") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 334.01 64.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3436b18b-8d1e-401e-b538-a393efbe7d93)
-    (property "Reference" "#PWR055" (at 334.01 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 334.01 59.69 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 334.01 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 334.01 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 92f0fa92-08c7-4ffd-b970-282a4d902d5f))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -2223,7 +1944,7 @@
     (pin "7" (uuid ea2b3c61-7ccf-42cd-b505-aef618f230e8))
     (pin "8" (uuid ec1f20fd-1e20-4b6a-995b-0c4c47f476b7))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U6") (unit 1)
         )
@@ -2248,7 +1969,7 @@
     )
     (pin "1" (uuid e85c692b-9eb6-4a46-87d2-b0fbaa1832d6))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR035") (unit 1)
         )
@@ -2273,7 +1994,7 @@
     )
     (pin "1" (uuid a8a16244-dcab-48ed-b4f8-0c3504df55bd))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR028") (unit 1)
         )
@@ -2299,7 +2020,7 @@
     (pin "1" (uuid 470d5e13-4608-41f8-9dc1-069b8017d3cd))
     (pin "2" (uuid 091a8e79-840e-4b8a-850e-aa4dbe2bcaa7))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R38") (unit 1)
         )
@@ -2325,7 +2046,7 @@
     (pin "1" (uuid 5a3beabc-9f7a-4458-ba7c-970b67e866d3))
     (pin "2" (uuid b8914574-2ee1-4412-8230-3a8bdbd5a630))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R5") (unit 1)
         )
@@ -2350,7 +2071,7 @@
     )
     (pin "1" (uuid 7e81b6a4-1406-4084-a2c7-a9e73d873ba9))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR026") (unit 1)
         )
@@ -2376,7 +2097,7 @@
     (pin "1" (uuid 4a16ba96-3ffb-40b1-be67-6263881d5f96))
     (pin "2" (uuid b76c5247-d0e9-4ebe-89c2-9689707fc2a6))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R55") (unit 1)
         )
@@ -2414,7 +2135,7 @@
     (pin "14" (uuid 33b0323c-2c4f-4db9-91f7-963707ff4bbe))
     (pin "7" (uuid e59f8c1e-475c-4783-83c2-385066f4ab45))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U3") (unit 1)
         )
@@ -2439,7 +2160,7 @@
     )
     (pin "1" (uuid 86fb75f5-2958-42cf-bfdb-1b6cae04d169))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR030") (unit 1)
         )
@@ -2464,34 +2185,9 @@
     )
     (pin "1" (uuid 2d303422-6c68-4446-bb27-e180a48a0628))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR036") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 374.65 39.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4fc56f03-94c3-4e64-853a-495f033db0dd)
-    (property "Reference" "#PWR057" (at 374.65 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 374.65 34.29 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 374.65 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 374.65 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 83098ed1-536e-40fb-a5ff-dec128e026c0))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -2514,7 +2210,7 @@
     )
     (pin "1" (uuid 9b2bf482-8f19-43bd-b3e0-74aa5a3b891b))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR011") (unit 1)
         )
@@ -2539,7 +2235,7 @@
     )
     (pin "1" (uuid 14e90b50-8310-4ac7-9b6d-20f2832a5134))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR017") (unit 1)
         )
@@ -2564,7 +2260,7 @@
     )
     (pin "1" (uuid 039c97bd-c358-43b4-9c7e-f32cc83cc14c))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR05") (unit 1)
         )
@@ -2590,7 +2286,7 @@
     (pin "1" (uuid 5f1c16cc-33eb-4354-a3f1-f86a9cd6efd0))
     (pin "2" (uuid 8138b761-3125-46a5-9547-b206102f6505))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R2") (unit 1)
         )
@@ -2615,7 +2311,7 @@
     )
     (pin "1" (uuid 4b3fe0b7-9fc0-4b95-9506-b1aec9721b00))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR020") (unit 1)
         )
@@ -2640,7 +2336,7 @@
     )
     (pin "1" (uuid 4a78d48c-38cc-4992-9904-b2d1ac234327))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR024") (unit 1)
         )
@@ -2665,35 +2361,9 @@
     )
     (pin "1" (uuid a4ca4469-7b2c-4f3d-8b3e-cfcb70f22ad5))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR049") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 388.62 73.66 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 664ce42c-3699-41c8-aea3-b99914ecdfc5)
-    (property "Reference" "R62" (at 388.62 67.31 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1" (at 388.62 69.85 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 388.62 75.438 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 388.62 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e49f29ab-4078-497d-9ce2-e291570e557e))
-    (pin "2" (uuid c77881e0-787e-4b32-a54f-0fe618af7efd))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "R62") (unit 1)
         )
       )
     )
@@ -2716,7 +2386,7 @@
     )
     (pin "1" (uuid 8f524f1d-4b11-42f2-b4d6-3d0cdbd101d9))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR012") (unit 1)
         )
@@ -2741,7 +2411,7 @@
     )
     (pin "1" (uuid f15ed857-2d40-4ed1-9f95-737128b93951))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR06") (unit 1)
         )
@@ -2766,35 +2436,9 @@
     )
     (pin "1" (uuid 19cdf5c7-63a5-4418-8af0-f1345ca05c10))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR021") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 388.62 44.45 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 68a4ad87-fef7-4b5c-bc6c-424b5f10b1ea)
-    (property "Reference" "R47" (at 388.62 38.1 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1" (at 388.62 40.64 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 388.62 46.228 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 388.62 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7b4a0228-a002-4d1c-adca-2d61671a9fd7))
-    (pin "2" (uuid 4f34a180-d1b2-4c25-a2a8-b134c656db37))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "R47") (unit 1)
         )
       )
     )
@@ -2817,7 +2461,7 @@
     )
     (pin "1" (uuid d4ece7b5-e7fc-4b76-9a65-42c36ea8da68))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR08") (unit 1)
         )
@@ -2843,34 +2487,9 @@
     (pin "1" (uuid b562a907-c826-4218-9c13-faddf3209360))
     (pin "2" (uuid 6554945b-735e-42e6-9553-b601733b13f8))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "C1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 334.01 78.74 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 737a983a-64b0-4ef6-b15c-8bf5d8927a2c)
-    (property "Reference" "#PWR056" (at 334.01 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 334.01 83.82 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 334.01 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 334.01 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e66b3d33-d5c3-406e-a937-590044705e1e))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -2900,7 +2519,7 @@
     (pin "7" (uuid e45b6dfe-3792-40df-a75d-7e0a8b5f2e8c))
     (pin "8" (uuid a854862c-2a15-4e18-868f-64e5d01de30f))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U2") (unit 1)
         )
@@ -2925,7 +2544,7 @@
     )
     (pin "1" (uuid dbff0210-3855-4795-9e0b-6ca369628735))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR09") (unit 1)
         )
@@ -2950,7 +2569,7 @@
     )
     (pin "1" (uuid e253796e-31e5-4eeb-856b-2d5e5543293c))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR023") (unit 1)
         )
@@ -2976,7 +2595,7 @@
     (pin "1" (uuid e8349f78-075a-4238-a66f-7f6144cae25e))
     (pin "2" (uuid af99cae7-e103-402c-9076-c2b0d06f1de4))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R65") (unit 1)
         )
@@ -3019,7 +2638,7 @@
           (reference "U1") (unit 1)
         )
       )
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U1") (unit 1)
         )
@@ -3051,7 +2670,7 @@
     (pin "7" (uuid f8b703fe-e5b9-4e1a-8e17-9a52174b74e1))
     (pin "8" (uuid cca34cd2-7db1-454a-b6cb-98effce86109))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U10") (unit 1)
         )
@@ -3076,7 +2695,7 @@
     )
     (pin "1" (uuid 884e149e-6016-46f1-a207-e60abc052c59))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR027") (unit 1)
         )
@@ -3102,7 +2721,7 @@
     (pin "1" (uuid 3e11c082-0bed-448d-ba6d-8c282737269e))
     (pin "2" (uuid a58ceb9e-bb53-41c9-85d7-8f38c72ff92a))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R37") (unit 1)
         )
@@ -3145,7 +2764,7 @@
           (reference "U1") (unit 2)
         )
       )
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U1") (unit 2)
         )
@@ -3170,41 +2789,9 @@
     )
     (pin "1" (uuid 40eee5cd-7531-45be-bd92-3384963e3051))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR013") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "my parts:L9110h") (at 332.74 41.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8b29d0bc-ce6d-48e5-8a68-0d1ed7b35cf7)
-    (property "Reference" "U24" (at 344.17 40.5383 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 332.74 41.91 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (at 332.74 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 332.74 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 89d729eb-082d-438d-97ab-b4a40313c27d))
-    (pin "2" (uuid 1ac75ff5-a048-41b2-83d8-15049f3fb44a))
-    (pin "3" (uuid 24433b81-9800-4d33-8671-544163b09fd7))
-    (pin "4" (uuid 09494309-a9c6-4850-8faa-00d24384d804))
-    (pin "5" (uuid 45f4279e-19a3-4f67-8b21-66c240e66089))
-    (pin "6" (uuid 0aeb75f7-0fab-4c87-b028-801e3e8161b3))
-    (pin "7" (uuid e859249e-fd1e-4a90-aea2-bc6bac2809dd))
-    (pin "8" (uuid 48300586-1dd6-4257-8f3d-26e1b605fb3b))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "U24") (unit 1)
         )
       )
     )
@@ -3228,7 +2815,7 @@
     (pin "1" (uuid 70394da0-3641-4e14-999e-b9b7cc828e30))
     (pin "2" (uuid e405a4e5-cb7b-46ab-a7f0-95c46fe85864))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R9") (unit 1)
         )
@@ -3253,7 +2840,7 @@
     )
     (pin "1" (uuid 7e414be1-0fd7-47f3-9373-33f5bbd049a9))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR016") (unit 1)
         )
@@ -3278,7 +2865,7 @@
     )
     (pin "1" (uuid fde94ea4-0f11-4f62-b768-0e7247f595a4))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR050") (unit 1)
         )
@@ -3304,7 +2891,7 @@
     (pin "1" (uuid 9a633c56-3586-4341-9b38-5921294960c5))
     (pin "2" (uuid 3e6cf12b-f08b-41bf-b01f-2406c05bf918))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R70") (unit 1)
         )
@@ -3329,7 +2916,7 @@
     )
     (pin "1" (uuid 3134b472-ace4-42fc-a4f9-5786cf344e9d))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR019") (unit 1)
         )
@@ -3354,7 +2941,7 @@
     )
     (pin "1" (uuid bbb90c95-a2c1-439b-9729-158b1c937cf3))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR047") (unit 1)
         )
@@ -3380,7 +2967,7 @@
     (pin "1" (uuid 8a995893-0821-497b-acba-5595e0a87b57))
     (pin "2" (uuid 0af16419-6105-401b-8348-976b9f1fdbd5))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R18") (unit 1)
         )
@@ -3407,7 +2994,7 @@
     (pin "2" (uuid 3e609e60-f13e-4342-9372-7fb5acbeeeb6))
     (pin "3" (uuid eb7972d7-6b86-49f4-84c4-2bac33957b66))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U11") (unit 1)
         )
@@ -3432,7 +3019,7 @@
     )
     (pin "1" (uuid 778d4748-10ee-481b-a6e6-25e417f8e877))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR014") (unit 1)
         )
@@ -3457,7 +3044,7 @@
     )
     (pin "1" (uuid 16d24f9c-3971-41cf-83dd-759ae0be1c5f))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR029") (unit 1)
         )
@@ -3482,7 +3069,7 @@
     )
     (pin "1" (uuid 0e7ce944-47de-4c4f-a34d-9b55e044bf7a))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR015") (unit 1)
         )
@@ -3514,7 +3101,7 @@
     (pin "7" (uuid d24a548c-c75a-4b66-946b-ed615502591c))
     (pin "8" (uuid 469792f8-3295-4f65-8e92-831cf71a5bf0))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U5") (unit 1)
         )
@@ -3539,67 +3126,9 @@
     )
     (pin "1" (uuid b095f1a8-d9e3-471b-aadd-c44b48e101e9))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 388.62 69.85 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b427fb38-8804-444d-9f04-ba29b864b911)
-    (property "Reference" "R49" (at 388.62 63.5 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1" (at 388.62 66.04 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 388.62 71.628 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 388.62 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 99caeeb3-f0d9-42f2-9b2d-519ff7a877e5))
-    (pin "2" (uuid b2e189de-ba6a-456f-8f86-13881b90556a))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "R49") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "my parts:L9110h") (at 373.38 41.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b450f86c-2cc4-4fe8-8a56-ee3093f83595)
-    (property "Reference" "U26" (at 384.81 40.5383 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 373.38 41.91 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (at 373.38 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 373.38 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a8e1447f-450b-41b1-8f40-feaadc722d05))
-    (pin "2" (uuid a30df1d1-0020-4c84-a354-7e3ae9051be8))
-    (pin "3" (uuid 70610c39-d921-43b7-bad7-58707b022fa6))
-    (pin "4" (uuid 8c94fd68-2327-4963-9e13-a749f4a7848f))
-    (pin "5" (uuid b592bf62-b2ad-4a71-86a3-7636f747d7d0))
-    (pin "6" (uuid 0078bc79-746c-4525-8ec5-83176f6445da))
-    (pin "7" (uuid 549cf892-7bed-4053-ad60-f798d8d8c95e))
-    (pin "8" (uuid c2b1f25f-c7d0-43d7-8336-1cd5657fc378))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "U26") (unit 1)
         )
       )
     )
@@ -3629,7 +3158,7 @@
     (pin "7" (uuid f871fcbe-c14b-4145-a310-6902cbaf13db))
     (pin "8" (uuid bf7c0595-c45b-4c1a-a714-cbbba47f1b57))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U9") (unit 1)
         )
@@ -3655,7 +3184,7 @@
     (pin "1" (uuid c0545a68-f6df-465a-9cf8-320c638623e3))
     (pin "2" (uuid 266c65d9-c23d-4041-a65a-4305161d8183))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R6") (unit 1)
         )
@@ -3680,7 +3209,7 @@
     )
     (pin "1" (uuid d395e2e0-2113-4b15-8424-87dbf1e3b5cf))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR07") (unit 1)
         )
@@ -3705,7 +3234,7 @@
     )
     (pin "1" (uuid bbe46eec-18ea-4435-9992-9bc59c53f813))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR022") (unit 1)
         )
@@ -3731,35 +3260,9 @@
     (pin "1" (uuid 9020db9b-7331-439e-a65d-4c69b925284e))
     (pin "2" (uuid 91e2ac7e-dfa5-4cf4-a95b-2953f42221cd))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R67") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 347.98 48.26 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cfdae6f6-84a8-48ef-9009-28b87ce85f8a)
-    (property "Reference" "R44" (at 347.98 41.91 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1" (at 347.98 44.45 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 347.98 50.038 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 347.98 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6b6592a0-2310-409f-8714-bb717c7dec04))
-    (pin "2" (uuid 6909cc11-2be3-4a73-b4c8-46c07bbefb0b))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "R44") (unit 1)
         )
       )
     )
@@ -3782,7 +3285,7 @@
     )
     (pin "1" (uuid f71a892a-63f8-4d28-b8ac-8604718588c3))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR025") (unit 1)
         )
@@ -3808,35 +3311,9 @@
     (pin "1" (uuid f6c73f59-2f04-4def-b860-e1bf1e6b7bba))
     (pin "2" (uuid 376515de-cb2a-432c-a0d5-174a8205d090))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 388.62 48.26 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d9b4ab91-9e82-445f-9346-dbae6cf83145)
-    (property "Reference" "R60" (at 388.62 41.91 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1" (at 388.62 44.45 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 388.62 50.038 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 388.62 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fd490546-1650-4b46-8473-b03ac1083c1c))
-    (pin "2" (uuid bc323b1d-c8fe-4383-8308-18a1860d1ce6))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "R60") (unit 1)
         )
       )
     )
@@ -3859,7 +3336,7 @@
     )
     (pin "1" (uuid bf0d408d-2223-44aa-8e5e-3482a0ce9092))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR031") (unit 1)
         )
@@ -3885,34 +3362,9 @@
     (pin "1" (uuid f4519323-6122-4d9d-8681-b0d723f52422))
     (pin "2" (uuid b01e5333-b268-4af0-b45b-1244b2d3940f))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 374.65 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid dfef28a3-087c-40ec-8f2c-451fdceb23f9)
-    (property "Reference" "#PWR058" (at 374.65 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 374.65 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 374.65 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 374.65 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3c25660a-ca5f-4d6d-b2a3-8a7813402836))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -3953,7 +3405,7 @@
           (reference "U1") (unit 3)
         )
       )
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U1") (unit 3)
         )
@@ -3979,7 +3431,7 @@
     (pin "1" (uuid 6303deed-8ae6-42ea-9f4d-e65a29abb652))
     (pin "2" (uuid afba36cd-c320-43a0-a2ff-681fdbc640ba))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R3") (unit 1)
         )
@@ -4004,7 +3456,7 @@
     )
     (pin "1" (uuid 419ce90e-ae33-4446-8af8-9eea35ab57f7))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR010") (unit 1)
         )
@@ -4029,34 +3481,9 @@
     )
     (pin "1" (uuid a7f0717b-83f9-488e-833c-2a64cd482c9c))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 374.65 78.74 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f0986c11-a1e6-48b4-8745-2c1752463df2)
-    (property "Reference" "#PWR060" (at 374.65 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 374.65 83.82 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 374.65 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 374.65 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4a0ce80e-b1c5-42b9-bf4a-b29e40c82ae6))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -4079,7 +3506,7 @@
     )
     (pin "1" (uuid 899dc17c-7270-4d80-80a7-de42efd351e8))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR032") (unit 1)
         )
@@ -4145,66 +3572,9 @@
     (pin "9A" (uuid f504a5ac-9019-4db5-8ecc-2c10d9ae93ad))
     (pin "9B" (uuid cd3c1fc9-4ffd-43e0-96f2-e60657fc7d35))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "J2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 334.01 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fa0331c2-caa0-4d1c-bbf6-b992cb1dcee2)
-    (property "Reference" "#PWR054" (at 334.01 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 334.01 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 334.01 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 334.01 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 37f4b93d-572e-4755-b244-09bbf48e6fef))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "#PWR054") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "my parts:L9110h") (at 332.74 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fa0f2a0d-e3cb-417e-8c58-6ecfd76d2a24)
-    (property "Reference" "U25" (at 344.17 65.9383 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 332.74 67.31 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (at 332.74 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 332.74 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2d282404-c39d-4279-a3c3-5f4d79bbd4ac))
-    (pin "2" (uuid 368513a4-71e4-4e46-9b6c-20c5d849ab80))
-    (pin "3" (uuid 419855be-8c85-4181-8d5b-4ebd7a34db17))
-    (pin "4" (uuid c0a327ab-e6ac-4c84-a0d4-1ce42b25162e))
-    (pin "5" (uuid fd3351cd-677e-4bc1-9a09-3503c4b036ff))
-    (pin "6" (uuid 1a891a83-4e17-4399-b2cd-0fa80a343388))
-    (pin "7" (uuid ef261378-98d1-4b3c-a1e1-b6744234064b))
-    (pin "8" (uuid 1fd9f1ff-98e2-4d12-9d66-78359404fdd9))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "U25") (unit 1)
         )
       )
     )
@@ -4228,7 +3598,7 @@
     (pin "1" (uuid a3ec8e21-0504-487a-9ccc-c72288b60c36))
     (pin "2" (uuid 19024cb0-5c14-4636-a87b-d9e7923de2da))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R39") (unit 1)
         )
@@ -4260,7 +3630,7 @@
     (pin "7" (uuid d23a6f03-b2fb-4566-8c22-6358e2326d23))
     (pin "8" (uuid 21cbd456-6ac6-4c3a-a97d-90b5c17acb6e))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "U4") (unit 1)
         )
@@ -4285,35 +3655,9 @@
     )
     (pin "1" (uuid 82350e38-4b9c-47f9-944a-4ba6e5649334))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "#PWR034") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 347.98 44.45 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fc14e926-73a9-4dda-94de-8a94e95d68ac)
-    (property "Reference" "R57" (at 347.98 38.1 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1" (at 347.98 40.64 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 347.98 46.228 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 347.98 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0c7466f0-c374-4ed1-b78b-28bbfde4a75d))
-    (pin "2" (uuid 5e629f1c-57fa-4479-b74f-20579dfea233))
-    (instances
-      (project "stepper_motor_controller_3_for_cnc"
-        (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
-          (reference "R57") (unit 1)
         )
       )
     )
@@ -4337,7 +3681,7 @@
     (pin "1" (uuid 0144a5d5-418d-4d70-8ab1-25d0cf6f228d))
     (pin "2" (uuid dcb2663f-248f-4db4-89cf-cef5cbab4ffb))
     (instances
-      (project "stepper_motor_controller_3_for_cnc"
+      (project "stepper_motor_controller_4_for_cnc"
         (path "/4be13624-393a-456f-a51f-7b151a0b69fa"
           (reference "R66") (unit 1)
         )
