@@ -194,7 +194,7 @@ void setup(){
 //    pinMode(s_cs, OUTPUT);
 //    pinMode(da_clear, OUTPUT);
 //    Serial.begin(9600);
-//    //Serial.println("Begin Test");
+//    Serial.println("Begin Test");
 //
 //    //disable the execution of commands:
 //    digitalWrite(s_cs, HIGH);
