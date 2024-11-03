@@ -1,0 +1,37 @@
+line_1,instr_0,f8,f0                    | load 0 1
+line_2,instr_2,b7                       | move ra constant
+line_3,instr_3,c7                       | move rb constant
+line_4,instr_4,f0,f8                    | load 0 2
+line_5,instr_6,b7                       | move ra constant
+line_6,instr_7,c7                       | move rb constant
+line_7,instr_8,f0,f4                    | load 0 4
+line_8,instr_10,b7                      | move ra constant
+line_9,instr_11,c7                      | move rb constant
+line_10,instr_12,f4,f0                  | load 0 8
+line_11,instr_14,b7                     | move ra constant
+line_12,instr_15,c7                     | move rb constant
+line_13,instr_16,f2,f0                  | load 1 0
+line_14,instr_18,b7                     | move ra constant
+line_15,instr_19,c7                     | move rb constant
+line_16,instr_20,f0,f2                  | load 2 0
+line_17,instr_22,b7                     | move ra constant
+line_18,instr_23,c7                     | move rb constant
+line_19,instr_24,f0,f1                  | load 4 0
+line_20,instr_26,b7                     | move ra constant
+line_21,instr_27,c7                     | move rb constant
+line_22,instr_28,f1,f0                  | load 8 0
+line_23,instr_30,b7                     | move ra constant
+line_24,instr_31,c7                     | move rb constant
+line_25,instr_32,f8,f0                  | load 0 1
+line_26,instr_34,c7                     | move rb constant
+line_27,instr_35,f0,f0                  | load 0 0
+line_28,instr_37,97                     | move bums constant
+line_29,instr_38,b7                     | move ra constant
+line_30,instr_39,f2,f5                  | load 5 4
+line_31,instr_41,87                     | move buls constant
+line_32,instr_42,f0,f0                  | load 0 0
+line_33,instr_44,97                     | move bums constant
+move mar constant
+move ram apb
+move ra ram
+line_36,instr_47,77                     | jump uncond noflag

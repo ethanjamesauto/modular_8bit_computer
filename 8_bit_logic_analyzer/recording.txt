@@ -1,11 +1,11 @@
 -----------0---------
-timestamp : 0
-address lower : 255
-address upper : 240
+timestamp : 2
+address lower : 84
+address upper : 0
 data bus : 255
 pc lower : 0
 pc upper : 0
-internal bus : 255
+internal bus : 0
 instruction : 0
 
 

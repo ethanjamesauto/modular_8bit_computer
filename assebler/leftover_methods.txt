@@ -1,0 +1,25 @@
+load 0 0
+move buls constant  #index 0th col.
+move card apb       #set to zero
+load 0 1
+move buls constant  #index 1st col
+move card apb
+load 0 2
+move buls constant  #index 2nd col
+move card apb
+load 0 3
+move buls constant  #index 3rd col
+move card apb
+load 0 4
+move buls constant  #index 4th col
+move card apb
+load 0 5
+move buls constant  #index 5th col
+move card apb
+load 0 6
+move buls constant  #index 6th col
+move card apb
+load 0 7
+move buls constant  #index 7th col
+move card apb   
+load 0 8

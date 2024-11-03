@@ -37,7 +37,7 @@
 #$  a           dest_ram
 #$  b           dest_ra
 #$  c           dest_rb
-#$  d           dest_addr
+#$  d           dest_mar
 #$  e           dest_card
 #$  f           dest_constant
 
@@ -71,25 +71,44 @@
 
 
 
+#create LUT of assemblables defined in this file.
+#----------EXPLANATION OF ASSEMBLABLE SYNTAX----------
+#
+#reserved_string        term_in_assembly        term
+#
+#An assemblable definition must only contain the reserved
+#string followed by two strings to link or an error will
+#be thrown.
+#-----------------------------------------------------
 
-
-lut = {}
-with open("assembler_2.py","r") as myself:
+MY_OWN_FILENAME,lut,myself_line_counter = "assembler_2.py",{},1
+with open(MY_OWN_FILENAME,"r") as myself:
     for line in myself:
         if line[:2] == "#$":
             line = line.replace("\n","")
             line = line.replace("#$","")
             line = line.split(" ")
             lut_arr = []
+            NO_CONTENT_THRESH = 2
+            assemblable_input_val = ""
             for token in line:
                 if len(token) > 0:
+                    NO_CONTENT_THRESH = NO_CONTENT_THRESH - 1
+                    
+                    if NO_CONTENT_THRESH == 0:
+                        if token in lut:
+                            raise Exception("line "+str(myself_line_counter)+" in "+str(MY_OWN_FILENAME)+": Assemblable already defined."+str(line))
                     lut_arr.append(token)
+            if NO_CONTENT_THRESH > 0:
+                raise Exception("line "+str(myself_line_counter)+" in "+str(MY_OWN_FILENAME)+": Assemblable definition incomplete."+str(line))
+            if NO_CONTENT_THRESH < 0:
+                raise Exception("line "+str(myself_line_counter)+" in "+str(MY_OWN_FILENAME)+": Too many terms in assemblable definition."+str(line))
+            
             lut[lut_arr[1]] = lut_arr[0]
+        myself_line_counter = myself_line_counter+1
 
 
-print(lut)
-
-line_counter,program,to_compile = 1,{},str(input("compile: (do not include file extension)"))
+line_counter,program,to_compile = 1,{},str("write_hi")#input("compile: (do not include file extension)"))
 with open(to_compile+".txt","r") as fp:
     for line in fp:
         line = line.replace("\n","")
@@ -159,7 +178,8 @@ for instruction in program:
     elif program[instruction][0] == "load":
         #
         rtl_defined_constant_eight_bits = lut["load_"+program[instruction][1]]+lut["load_"+program[instruction][2]]
-        map_byte = [1, 2, 5, 6, 0, 3, 4, 7]
+        map_byte = [7, 3, 2, 6, 5, 1, 0, 4]
+        #zero index goes to index of number in zeroth position
         #map_byte = [0, 1, 2, 3, 4, 5, 6, 7]
         #convert byte to a number
         b = int(rtl_defined_constant_eight_bits, 16)
@@ -227,13 +247,12 @@ with open("rom.txt","wb") as fp:
         if i in rom:
 
 
-
-            #formatted_byte = ""
-            #for character in rom[i]:
-                #formatted_byte = formatted_byte+str(int(character,16))
+                #formatted_byte = ""
+                #for character in rom[i]:
+                    #formatted_byte = formatted_byte+str(int(character,16))
             arr.append(int(rom[i][0],16))
             print(rom[i][0])
-            #fp.write(chr(int(rom[i],16)))
+                #fp.write(chr(int(rom[i],16)))
         #else:
             #fp.write(NO_OP_INSTRUCTON+"\n")
     thing = bytes(bytearray(arr))
@@ -255,6 +274,7 @@ with open("test_output.txt","w") as fp:
         for token in program[line_counter]:
             if len(token) > 0:
                 content.append(token)
+        print(content)
         print(content[3])
         to_write = content[3]+(" "*(40-len(content[3])))+"| "+content[0]+" "+content[1]+" "+content[2]
         fp.write(to_write+"\n")

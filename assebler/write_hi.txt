@@ -1,0 +1,92 @@
+load 0 0
+move mar constant
+move ram constant
+load 0 0            #RAM ADDR 0 used as jumpto lsb  1/256 used
+move bums constant
+move buls constant
+move ra constant    #RA contains 0
+load 0 0           #CHANGE HERE TO SWITCH FROM WRITING ONES TO ZEROS. card is inverted!
+move rb constant    #RB contains 0. APB equals zero. 
+load 0 8            #BEGIN CHARACTER "H" DRAW
+move buls constant  #LEFTMOST (0th) COLUMN
+load 0 0
+move card constant  
+load 0 9
+move buls constant  #1st col
+load f b
+move card constant  
+load 0 a
+move buls constant  #2nd col
+load f b 
+move card constant  
+load 0 b
+move buls constant  #3rd col
+load f b
+move card constant  
+load 0 c
+move buls constant  #RIGHTMOST (4th) col 
+load 0 0
+move card constant  #END CHARACTER "H" DRAW
+load 0 0  #BEGIN DELAY         
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 #END DELAY
+load 0 8            #BEGIN CHARACTER "I" DRAW
+move buls constant  #LEFTMOST (0th) COLUMN
+load 1 f
+move card constant  
+load 0 9
+move buls constant  #1st col
+load 1 f
+move card constant  
+load 0 a
+move buls constant  #2nd col
+load 0 0 
+move card constant  
+load 0 b
+move buls constant  #3rd col
+load 1 f
+move card constant  
+load 0 c
+move buls constant  #RIGHTMOST (4th) col 
+load 1 f
+move card constant  #END CHARACTER "I" DRAW
+load 0 0  #BEGIN DELAY         
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 
+load 0 0 #END DELAY
+load 0 0 #BEGIN CLEANUP        
+move mar constant #set MAR to index 0
+move ra ram
+load 0 1
+move rb constant
+move ram apb
+load 0 0            #JUMP BACK TO BEGINNING OF PROGRAM AT LINE 5
+move bums constant
+load 0 8
+move buls constant
+jump uncond noflag  #jump to 0 0
